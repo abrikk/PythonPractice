@@ -1,4 +1,4 @@
-""" Program which calculates the sum of digits of the entered number """
+""" Program which calculates the sum of digits of the entered number. """
 import string
 
 num = input("Enter a number: ")
