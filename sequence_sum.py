@@ -1,13 +1,13 @@
 """ Finding the sum of sequences 0.5 + 1.5 + 2.5 + ... + 98.5 + 99.5 using Python."""
 
 # The simplest first way in one line
-print("The sum is: ", sum([i-0.5 for i in range(1, 101)]))
+print("The sum is: ", int(sum([i-0.5 for i in range(1, 101)])))
 
 # The second way
 sum_of_nums = 0
 for num in range(1, 101):
     sum_of_nums = sum_of_nums+(num-0.5)
-print("The sum is: ", sum_of_nums)
+print("The sum is: ", int(sum_of_nums))
 
 # The third way using external function arange in Numpy library
 import numpy as np
