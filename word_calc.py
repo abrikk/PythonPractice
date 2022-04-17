@@ -5,7 +5,7 @@
 
 def divided_by(number2):
     def wrap(number):
-        return number / number2
+        return number // number2
 
     return wrap
 
@@ -29,6 +29,14 @@ def times(number2):
         return number * number2
 
     return wrap
+
+
+def zero(func=None):
+    number = 0
+    if func is None:
+        return number
+    else:
+        return func(number)
 
 
 def one(func=None):
